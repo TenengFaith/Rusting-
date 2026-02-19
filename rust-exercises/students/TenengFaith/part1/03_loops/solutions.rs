@@ -1,6 +1,7 @@
 fn main(){
     exercise_1();
     exercise_2();
+    exercise_3();
 }
 
 fn exercise_1(){
@@ -36,6 +37,10 @@ fn exercise_2(){
     println!("The first perfect square divisible by 7 is: {}", result);
 }
 
-// fn exercise_3(){
-
-// }
+fn exercise_3(){
+    for i in 1..6{
+        for j in 1..6{
+            println!("{} x {} = {}",i,j,i*j);
+        }
+    }
+}
